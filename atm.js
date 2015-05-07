@@ -1,10 +1,10 @@
+$(document).ready(function() {
+
 var total1 = 0;
 var total2 = 0;
 var balance1 = 0;
 var balance2 = 0;
 
-
-$(document).ready(function() {
 
 // logs the input when the deposit button is clicked, and adds new deposit amounts to the chequing account
   $('#deposit1').on('click', function(event) {
@@ -48,7 +48,18 @@ if (total1 <= -1 && totalBalance >= amountBorrowed) {
 
 
 
-
 // $('.account').css("border", "pink");
 
+
+// unnecessary code
+// logs the information that is typed into both input boxes
+ // $(document).ready(function() {
+ //  $('#amount1').on('keyup', function(event) {
+ //    amount1 = $(this).val();
+ //    console.log(amount1);
+ //  });
+ //  $('#amount2').on('keyup', function(event) {
+ //    amount2 = $(this).val();
+ //    console.log(amount2);
+ //  });
 
